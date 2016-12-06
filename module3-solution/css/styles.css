@@ -1,0 +1,70 @@
+body  {
+  background-color: #127B13;
+}
+
+h2  {
+  color: white;
+  font-family: arial;
+}
+
+.section {
+  background-color: #F7F81D;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#section-header {
+  color: #5D350C;
+  font-weight: bold;
+  font-size: 1.75em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*  HEADER  */
+#header-nav {
+  background-color: #10AB2A;  /*  127B13 - DARK GREEN --- F7F81D YELLOW  --- 10AB2A green*/
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1  {
+  color: #E08932;   /*  ORANGE  */
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  visibility: hidden;
+}
+
+#nav-list a {
+  background: #FEAE5E;   /*  LIGHT ORANGE  */
+  color: #5D350C;        /*  BROWN  */
+  text-align: center;
+  border-bottom: 1px solid brown;
+}
+
+#nav-list a:hover {
+  background: #E58524;  /*  DARK ORANGE  */
+}
+
+
+@media (max-width:  767.99px) {
+  #nav-list {
+    margin: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    visibility: visible;
+  }
+}
